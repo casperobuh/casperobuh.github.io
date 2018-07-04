@@ -643,7 +643,7 @@ position:absolute;
 z-index: -3;
 	width:100%;
 	height:100%;
-	 background-image: url('C:/learn/images/wrapperFootwear/fon1.jpg');
+	 background-image: url('https://casperobuh.github.io/images/wrapperFootwear/fon1.jpg');
 	 background-repeat:no-repeat;
 	 background-size:640px 270px;
 }
@@ -652,7 +652,7 @@ z-index: -3;
 }
 		.image-right{
 			border:1px solid black;
-			background-image: url('C:/learn/images/wrapperFootwear/checkroom.jpg');
+			background-image: url('https://casperobuh.github.io/images/wrapperFootwear/checkroom.jpg');
 			background-repeat: no-repeat;
 			background-size:40% auto;
 			left:21%;
@@ -827,7 +827,7 @@ position:absolute;
 z-index: -3;
 	width:100%;
 	height:100%;
-	 background-image: url('C:/learn/images/wrapperFootwear/fon1.jpg');
+	 background-image: url('https://casperobuh.github.io/images/wrapperFootwear/fon1.jpg');
 	 background-repeat:no-repeat;
 	 background-size:740px 370px;
 }
@@ -837,7 +837,7 @@ z-index: -3;
 }
 		.image-right{
 			border:1px solid black;
-			background-image: url('C:/learn/images/wrapperFootwear/checkroom.jpg');
+			background-image: url('https://casperobuh.github.io/images/wrapperFootwear/checkroom.jpg');
 			background-repeat: no-repeat;
 			background-size:40% 55%;
 			left:38%;
