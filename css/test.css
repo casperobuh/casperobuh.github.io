@@ -1,0 +1,564 @@
+body, html{height:100%;}
+
+.img{
+
+font-size:1.5em;
+	position:absolute;
+	width:100%;
+	padding:1.5em;
+	background-repeat:no-repeat;
+	background-image: url('C:/learn/images/test/p.jpg');
+	background-size:cover;
+	cursor:pointer;
+	z-index:10;
+}
+
+
+.img2{
+	margin-top:8em;
+	padding:1.5em;
+	font-size:1.5em;
+	position:absolute;
+	width:100%;
+	background-repeat:no-repeat;
+	background-image: url('C:/learn/images/test/p.jpg');
+	background-size:cover;
+	cursor:pointer;
+	z-index:10;
+}
+
+.img3{
+	margin-top:16em;
+	padding:1.5em;
+	font-size:1.5em;
+	position:absolute;
+	width:100%;
+	background-repeat:no-repeat;
+	background-image: url('C:/learn/images/test/p.jpg');
+	background-size:cover;
+	cursor:pointer;
+	z-index:10;
+	
+}
+
+.img4{
+	margin-top:0;
+	padding:1.5em;
+	font-size:1.5em;
+	position:absolute;
+	width:100%;
+	background-repeat:no-repeat;
+	background-image: url('C:/learn/images/test/p.jpg');
+	background-size:cover;
+	cursor:pointer;
+	z-index:9;
+	
+}
+.img5{
+	margin-top:8em;
+	padding:1.5em;
+	font-size:1.5em;
+	position:absolute;
+	width:100%;
+	background-repeat:no-repeat;
+	background-image: url('C:/learn/images/test/p.jpg');
+	background-size:cover;
+	cursor:pointer;
+	z-index:9;
+	
+}
+.img6{
+	margin-top:18em;
+	padding:1.5em;
+	font-size:1.5em;
+	position:absolute;
+	width:100%;
+	background-repeat:no-repeat;
+	background-image: url('C:/learn/images/test/p.jpg');
+	background-size:cover;
+	cursor:pointer;
+	z-index:9;
+
+}
+
+
+.img7{
+	
+	padding:1.5em;
+	font-size:1.5em;
+	position:absolute;
+	width:100%;
+	background-repeat:no-repeat;
+	background-image: url('C:/learn/images/test/p.jpg');
+	background-size:cover;
+	cursor:pointer;
+	z-index:8;
+}
+.img8{
+	margin-top:8em;
+	padding:1.5em;
+	font-size:1.5em;
+	position:absolute;
+	width:100%;
+	background-repeat:no-repeat;
+	background-image: url('C:/learn/images/test/p.jpg');
+	background-size:cover;
+	cursor:pointer;
+	z-index:8;
+}
+.img9{
+	margin-top:16em;
+	padding:1.5em;
+	font-size:1.5em;
+	position:absolute;
+	width:100%;
+	background-repeat:no-repeat;
+	background-image: url('C:/learn/images/test/p.jpg');
+	background-size:cover;
+	cursor:pointer;
+	z-index:8;
+}
+
+
+.img10{
+	
+	padding:1.5em;
+	font-size:1.5em;
+	position:absolute;
+	width:100%;
+	background-repeat:no-repeat;
+	background-image: url('C:/learn/images/test/p.jpg');
+	background-size:cover;
+	cursor:pointer;
+	z-index:7;
+}
+.img11{
+	margin-top:8em;
+	padding:1.5em;
+	font-size:1.5em;
+	position:absolute;
+	width:100%;
+	background-repeat:no-repeat;
+	background-image: url('C:/learn/images/test/p.jpg');
+	background-size:cover;
+	cursor:pointer;
+	z-index:7;
+}
+.img12{
+	margin-top:16em;
+	padding:1.5em;
+	font-size:1.5em;
+	position:absolute;
+	width:100%;
+	background-repeat:no-repeat;
+	background-image: url('C:/learn/images/test/p.jpg');
+	background-size:cover;
+	cursor:pointer;
+	z-index:7;
+}
+
+.img13{
+	
+	padding:1.5em;
+	font-size:1.5em;
+	position:absolute;
+	width:100%;
+	background-repeat:no-repeat;
+	background-image: url('C:/learn/images/test/p.jpg');
+	background-size:cover;
+	cursor:pointer;
+	z-index:6;
+}
+.img14{
+	margin-top:8em;
+	padding:1.5em;
+	font-size:1.5em;
+	position:absolute;
+	width:100%;
+	background-repeat:no-repeat;
+	background-image: url('C:/learn/images/test/p.jpg');
+	background-size:cover;
+	cursor:pointer;
+	z-index:6;
+}
+
+.img15{
+	margin-top:16em;
+	padding:1.5em;
+	font-size:1.5em;
+	position:absolute;
+	width:100%;
+	background-repeat:no-repeat;
+	background-image: url('C:/learn/images/test/p.jpg');
+	background-size:cover;
+	cursor:pointer;
+	z-index:7;
+}
+
+
+
+
+
+
+.img16{
+	
+	padding:1.5em;
+	font-size:1.5em;
+	position:absolute;
+	width:100%;
+	background-repeat:no-repeat;
+	background-image: url('C:/learn/images/test/p.jpg');
+	background-size:cover;
+	cursor:pointer;
+	z-index:7;
+}
+.img17{
+	margin-top:8em;
+	padding:1.5em;
+	font-size:1.5em;
+	position:absolute;
+	width:100%;
+	background-repeat:no-repeat;
+	background-image: url('C:/learn/images/test/p.jpg');
+	background-size:cover;
+	cursor:pointer;
+	z-index:7;
+}
+.img18{
+	margin-top:16em;
+	padding:1.5em;
+	font-size:1.5em;
+	position:absolute;
+	width:100%;
+	background-repeat:no-repeat;
+	background-image: url('C:/learn/images/test/p.jpg');
+	background-size:cover;
+	cursor:pointer;
+	z-index:7;
+}
+.img19{
+	
+	padding:1.5em;
+	font-size:1.5em;
+	position:absolute;
+	width:100%;
+	background-repeat:no-repeat;
+	background-image: url('C:/learn/images/test/p.jpg');
+	background-size:cover;
+	cursor:pointer;
+	z-index:7;
+}
+.img20{
+	margin-top:8em;
+	padding:1.5em;
+	font-size:1.5em;
+	position:absolute;
+	width:100%;
+	background-repeat:no-repeat;
+	background-image: url('C:/learn/images/test/p.jpg');
+	background-size:cover;
+	cursor:pointer;
+	z-index:7;
+}
+.img21{
+	margin-top:16em;
+	padding:1.5em;
+	font-size:1.5em;
+	position:absolute;
+	width:100%;
+	background-repeat:no-repeat;
+	background-image: url('C:/learn/images/test/p.jpg');
+	background-size:cover;
+	cursor:pointer;
+	z-index:7;
+}
+.img22{
+	
+	padding:1.5em;
+	font-size:1.5em;
+	position:absolute;
+	width:100%;
+	background-repeat:no-repeat;
+	background-image: url('C:/learn/images/test/p.jpg');
+	background-size:cover;
+	cursor:pointer;
+	z-index:7;
+}
+.img23{
+	margin-top:8em;
+	padding:1.5em;
+	font-size:1.5em;
+	position:absolute;
+	width:100%;
+	background-repeat:no-repeat;
+	background-image: url('C:/learn/images/test/p.jpg');
+	background-size:cover;
+	cursor:pointer;
+	z-index:7;
+}
+.img24{
+	margin-top:16em;
+	padding:1.5em;
+	font-size:1.5em;
+	position:absolute;
+	width:100%;
+	background-repeat:no-repeat;
+	background-image: url('C:/learn/images/test/p.jpg');
+	background-size:cover;
+	cursor:pointer;
+	z-index:7;
+}
+.img25{
+	
+	padding:1.5em;
+	font-size:1.5em;
+	position:absolute;
+	width:100%;
+	background-repeat:no-repeat;
+	background-image: url('C:/learn/images/test/p.jpg');
+	background-size:cover;
+	cursor:pointer;
+	z-index:7;
+}
+.img26{
+	margin-top:8em;
+	padding:1.5em;
+	font-size:1.5em;
+	position:absolute;
+	width:100%;
+	background-repeat:no-repeat;
+	background-image: url('C:/learn/images/test/p.jpg');
+	background-size:cover;
+	cursor:pointer;
+	z-index:7;
+}
+.img27{
+	margin-top:16em;
+	padding:1.5em;
+	font-size:1.5em;
+	position:absolute;
+	width:100%;
+	background-repeat:no-repeat;
+	background-image: url('C:/learn/images/test/p.jpg');
+	background-size:cover;
+	cursor:pointer;
+	z-index:7;
+}
+.img28{
+	
+	padding:1.5em;
+	font-size:1.5em;
+	position:absolute;
+	width:100%;
+	background-repeat:no-repeat;
+	background-image: url('C:/learn/images/test/p.jpg');
+	background-size:cover;
+	cursor:pointer;
+	z-index:7;
+}
+.img29{
+	margin-top:8em;
+	padding:1.5em;
+	font-size:1.5em;
+	position:absolute;
+	width:100%;
+	background-repeat:no-repeat;
+	background-image: url('C:/learn/images/test/p.jpg');
+	background-size:cover;
+	cursor:pointer;
+	z-index:7;
+}
+.img30{
+	margin-top:16em;
+	padding:1.5em;
+	font-size:1.5em;
+	position:absolute;
+	width:100%;
+	background-repeat:no-repeat;
+	background-image: url('C:/learn/images/test/p.jpg');
+	background-size:cover;
+	cursor:pointer;
+	z-index:7;
+}
+.img31{
+	
+	padding:1.5em;
+	font-size:1.5em;
+	position:absolute;
+	width:100%;
+	background-repeat:no-repeat;
+	background-image: url('C:/learn/images/test/p.jpg');
+	background-size:cover;
+	cursor:pointer;
+	z-index:7;
+}
+.img32{
+	margin-top:8em;
+	padding:1.5em;
+	font-size:1.5em;
+	position:absolute;
+	width:100%;
+	background-repeat:no-repeat;
+	background-image: url('C:/learn/images/test/p.jpg');
+	background-size:cover;
+	cursor:pointer;
+	z-index:7;
+}
+.img33{
+	margin-top:16em;
+	padding:1.5em;
+	font-size:1.5em;
+	position:absolute;
+	width:100%;
+	background-repeat:no-repeat;
+	background-image: url('C:/learn/images/test/p.jpg');
+	background-size:cover;
+	cursor:pointer;
+	z-index:7;
+}
+.img34{
+	
+	padding:1.5em;
+	font-size:1.5em;
+	position:absolute;
+	width:100%;
+	background-repeat:no-repeat;
+	background-image: url('C:/learn/images/test/p.jpg');
+	background-size:cover;
+	cursor:pointer;
+	z-index:7;
+}
+.img35{
+	margin-top:8em;
+	padding:1.5em;
+	font-size:1.5em;
+	position:absolute;
+	width:100%;
+	background-repeat:no-repeat;
+	background-image: url('C:/learn/images/test/p.jpg');
+	background-size:cover;
+	cursor:pointer;
+	z-index:7;
+}
+.img36{
+	margin-top:16em;
+	padding:1.5em;
+	font-size:1.5em;
+	position:absolute;
+	width:100%;
+	background-repeat:no-repeat;
+	background-image: url('C:/learn/images/test/p.jpg');
+	background-size:cover;
+	cursor:pointer;
+	z-index:7;
+}
+.answer1{
+	margin-left:30%;
+	width:70%;
+}
+.answer2, .answer3, .answer4, .answer5, .answer6, .answer7, .answer8, .answer9, .answer10, .answer11, .answer12{
+	display:none;
+	margin-left:30%;
+	width:70%;
+}
+
+.button{
+	height:4em;
+	padding-top:4em;
+
+box-sizing:border-box;
+}
+.result-button {
+	width:25%;
+		font-family: options_e;
+	
+	
+	margin-left:0.5em;
+	text-align:center;
+	line-height:1.2em;
+	cursor:pointer;
+	font-size:3em;
+	font-weight:900;
+}
+
+.col-button {
+	font-family: options_e;
+	width:25%;
+	line-height:1.2em;
+	
+	
+	margin-top:2em;
+	margin-left:0.5em;
+	text-align:center;
+	font-size:3em;
+	cursor:pointer;
+	font-weight:900;
+}
+
+
+.ball {
+	display:none;
+	margin-top:13em;
+	position:absolute;
+	margin-left:10%;
+	z-index:20;
+}
+.ball2{
+	display:none;
+	position:absolute;
+	margin-top:15em;
+	margin-left:30%;
+	z-index:20;
+}
+.ball3{
+	display:none;
+	margin-top:27em;
+	position:absolute;
+	margin-left:30%;
+	z-index:20;
+}
+
+.result{
+	display:inline-block;
+border:3px solid black;
+width:70%;
+position:relative;
+bottom:95em;	
+}
+.name{
+	position:absolute;
+	right:400px;
+	top:2em;
+}
+.haracter{
+	position:absolute;
+	right:400px;
+	top:10em;
+}
+.tufli{
+	position:absolute;
+	right:400px;
+	top:20em;
+}
+.button-result{
+	position:absolute;
+	right:400px;
+	top:30em;
+	border:1px solid black;
+	width:100px;
+	height:50px;
+	cursor:pointer;
+	text-align:center;
+	line-height:2em;
+}
+.recom{
+	position:absolute;
+	right:400px;
+	top:40em;
+	border:1px solid black;
+	width:100px;
+	height:70px;
+	cursor:pointer;
+	text-align:center;
+	line-height:2em;
+}

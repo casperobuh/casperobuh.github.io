@@ -1,0 +1,27 @@
+@font-face{
+
+font-family: 'options_s';
+src: url('C:/learn/font/options_s.ttf') format("truetype");
+
+font-weight: bold;
+
+font-style: italic;
+
+}
+
+
+@font-face{
+
+font-family: 'options_a';
+src: url('C:/learn/font/options_a.ttf') format("truetype");
+
+
+}
+
+@font-face{
+
+font-family: 'options_e';
+src: url('C:/learn/font/options_e.ttf') format("truetype");
+
+
+}
