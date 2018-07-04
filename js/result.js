@@ -27,7 +27,7 @@ arr={
  "Роберт Де Ниро":mkImage("https://casperobuh.github.io/images/polity/robert_de_niro.jpg"),
  "Брэд Питт":mkImage("https://casperobuh.github.io/images/polity/pit.jpg"),
  "Николас Кейдж":mkImage("https://casperobuh.github.io/images/polity/nicolas.jpg"),
- "Герман Греф": mkImage("C:/learn/images/polity/gref.jpg"),
+ "Герман Греф": mkImage("https://casperobuh.github.io/images/polity/gref.jpg"),
  "Филипп Киркоров": mkImage("https://casperobuh.github.io/images/polity/kirkorov.jpg" ),
  "Валентин Юдашкин":mkImage("https://casperobuh.github.io/images/polity/udashkin.jpg"),
  "Иосиф Кобзон": mkImage("https://casperobuh.github.io/images/polity/kobson.jpg"),
