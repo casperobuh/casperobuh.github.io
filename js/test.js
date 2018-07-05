@@ -263,7 +263,11 @@ console.log(o)
 		      result+=p;
 		    	button2.textContent = "Точность рекомендации-"+ " " + result +" "+ "процентов";		
 	}
+	 if(target.tagName=="DIV"&& result==99) {
+          result=100;
+          button2.textContent = "Точность рекомендации-"+ " " + result +" "+ "процентов";  
 
+  }
 	},900)
 })
    
