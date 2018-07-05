@@ -564,7 +564,7 @@ bottom:95em;
 }
 
 
-media(max-width:460px) and (min-width:320px) {
+@media(max-width:460px) and (min-width:320px) {
 	.img, .img4, .img7, .img10, .img13, .img16, .img19, .img22, .img25, .img28, .img31, .img34 {
 
 font-size:0.8em;
