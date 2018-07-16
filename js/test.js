@@ -261,9 +261,14 @@ console.log(o)
 	setTimeout(function(){
 	   if(target.tagName=="DIV") {
 		      result+=p;
+		     result=Math.ceil(result)
 		    	button2.textContent = "Точность рекомендации-"+ " " + result +" "+ "процентов";		
 	}
+	 if(target.tagName=="DIV"&& result==99) {
+          result=100;
+          button2.textContent = "Точность рекомендации-"+ " " + result +" "+ "процентов";  
 
+  }
 	},900)
 })
    
