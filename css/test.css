@@ -139,7 +139,7 @@ font-size:1.5em;
 	position:absolute;
 	width:100%;
 	background-repeat:no-repeat;
-	background-image: url(/images/test/p.jpg');
+	background-image: url('https://casperobuh.github.ioimages/test/p.jpg');
 	background-size:cover;
 	cursor:pointer;
 	z-index:7;
