@@ -31,9 +31,8 @@ max-width:1600px;
 	
 }
 .right-menu{
-	width:40em;
-	height:270px;
-	border:1px solid green;
+	width:32em;
+	height:470px;
 	float:right;
 	
 }
@@ -65,10 +64,11 @@ max-width:1600px;
 }
 .open1, .open2, .open3, .open4, .open5, .ope1, .ope2, .ope3, .ope4, .ope5{
 	position:absolute;
+	cursor:pointer;
 	
 }
 .open1{
-	transition:width 2s linear;
+	left:0;
  	z-index:1;
 	 border:1px solid #9d7a4b;
 	 background:#9d7a4b;
@@ -82,7 +82,7 @@ max-width:1600px;
 }
 
 .open2{
-	left:2.3em; 
+	left:4em; 
 	 color:#FDF5E6;
 	z-index:2; opacity:0.8;
 	 border:1px solid #9d7a4b;
@@ -96,7 +96,7 @@ max-width:1600px;
 	line-height:1.8em;
 	border-radius:6px;
 	}
-.open3{left:6.6em; 
+.open3{left:14em; 
 	z-index:3;opacity:0.8;
 	 color:#FDF5E6;
 	 border:1px solid #9d7a4b;
@@ -108,7 +108,7 @@ max-width:1600px;
 	text-align:center;
 	line-height:1.8em;}
 .open4{
-	left:11.9em;
+	left:24em;
  z-index:4;opacity:0.8;
   color:#FDF5E6;
   border:1px solid #9d7a4b;
@@ -120,7 +120,7 @@ max-width:1600px;
 	line-height:1.8em;
 }
 .open5{
-	left:17.2em;
+	left:34em;
  z-index:5;opacity:0.6;
  color:#FDF5E6;
  border:1px solid #9d7a4b;
@@ -168,7 +168,7 @@ max-width:1600px;
 	position:absolute;
 	z-index: 10;
 	height:300px;
-	background-image: url('http://casperobuh.github.io/images/wrapperFootwear/english.jpg');
+	background-image: url('https://casperobuh.github.io/images/wrapperFootwear/english.jpg');
 	background-repeat: no-repeat;
 	background-size:640px 270px;
 }
@@ -195,7 +195,7 @@ max-width:1600px;
 .select-footwear{
    position:absolute;
    top:300px;
-   left:13em;
+   left:8em;
     display:inline-block;
 	width:60%;
 	
@@ -231,7 +231,7 @@ border:1px solid black;
 	cursor:pointer;
    width:8em;
    height:8%;
-   text-align:center;
+    text-align:center;
  border:1px solid #9d7a4b;
  background:#9d7a4b;
 	margin-left:2em;
@@ -261,6 +261,7 @@ border:1px solid black;
 	
 	display:inline-block;
 	
+	
 }
 
 
@@ -283,7 +284,7 @@ border:1px solid black;
 }
 .login::after {
       content: "▶";
-      padding-left:58px;
+      padding-left:38px;
 	
 }
 .wrapper-it::after {
@@ -544,7 +545,7 @@ visibility:hidden;
 }
 
 .ope1{
-	top:1em;
+	top:0.2em;
 	left:5em;
 	bottom:10em; 
  	z-index:1;
@@ -559,7 +560,7 @@ visibility:hidden;
 	 border-radius:6px;
 }
 .ope2{
-	top:2.2em; 
+	
 	left:5em;
 	 color:#FDF5E6;
 	z-index:2; opacity:0.8;
@@ -575,7 +576,7 @@ visibility:hidden;
 	border-radius:6px;
 	}
 .ope3{
-	top:4.6em; 
+	top:7em; 
 	left:5em;
 	z-index:3;
 	opacity:0.8;
@@ -589,7 +590,7 @@ visibility:hidden;
 	text-align:center;
 	line-height:1.8em;}
 .ope4{
-	top:6.9em;
+	top:12em;
 	left:5em;
  z-index:4;opacity:0.8;
   color:#FDF5E6;
@@ -602,8 +603,8 @@ visibility:hidden;
 	line-height:1.8em;
 }
 .ope5{
+	top:17em;
 	left:5em;
-	top:8.2em;
  z-index:5;opacity:0.6;
  color:#FDF5E6;
  border:1px solid #9d7a4b;
@@ -632,12 +633,98 @@ visibility:hidden;
 	html, body{
 	overflow-x:hidden;
 	}
+.fixed{
+	width: 8em;
+	height: 2em;
+	margin-left:1em;
+	background: #9d7a4b;
+	cursor:pointer;
+	border-radius:6px;
+	text-align:center;
+	font-size:10px;
+}
+.open1{
+	cursor:pointer;
+	font-size:0.5em;
+	left:0
+}
 
+.open2{
+	cursor:pointer;
+	font-size:0.5em;
+	left:10em;
+	}
+.open3{
+	cursor:pointer;
+	font-size:0.5em;
+	left:18.5em;
+}
+.open4{
+	cursor:pointer;
+	font-size:0.5em;
+	left:27em;
+}
+.open5{
+	cursor:pointer;
+	font-size:0.5em;
+	left:34em;
+	}
+
+
+.italian-image{
+	margin-left:-10em;
+	background-size: 50vw 15vh;
+}
+.englich-image{
+	background-size: 50vw 15vh;
+	margin-left:-10em;
+}
+.ope1{
+	cursor:pointer;
+	left:2em;
+ 	font-size:0.6em;
+   height:4%;
+	width:6em;
+	height:2em;
+}
+.ope2{
+	cursor:pointer;
+	top:-2.5em;
+	left:2em;
+ 	font-size:0.6em;
+   height:4%;
+	width:6em;
+	height:2em;
+}
+.ope3{
+cursor:pointer;
+	left:2em;
+ 	font-size:0.6em;
+   height:4%;
+	width:6em;
+	height:2em;
+}
+.ope4{
+	cursor:pointer;
+	left:2em;
+ 	font-size:0.6em;
+   height:4%;
+	width:6em;
+	height:2em;
+}
+.ope5{
+	cursor:pointer;
+	left:2em;
+ 	font-size:0.6em;
+   height:4%;
+	width:6em;
+	height:2em;
+}
    .container-wrapper{
    	height:100%;
    	position:relative;
    }
-
+	
 .image{
 position:absolute;
 z-index: -3;
@@ -652,7 +739,7 @@ z-index: -3;
 }
 		.image-right{
 			border:1px solid black;
-			background-image: url('https://casperobuh.github.io/images/wrapperFootwear/checkroom.jpg');
+			background-image: url('/images/wrapperFootwear/checkroom.jpg');
 			background-repeat: no-repeat;
 			background-size:40% auto;
 			left:21%;
@@ -662,27 +749,24 @@ z-index: -3;
 	        margin-top:0;
 	}
 
-	.container-options{
-		width:100%;
 
-	 }
 .wrapper-item2{
 	cursor:pointer;
    width:7em;
-   font-size:0.7em;
+   font-size:0.5em;
     height:2em;
 }
 
 .wrapper-item3{
 	cursor:pointer;
    width:7em; 
-     font-size:0.7em;
+     font-size:0.5em;
     height:2em;
 }
 	
 .wrapper-item{
 	width:7em;
-    font-size:0.7em;
+    font-size:0.5em;
     height:2em;
     
 }
@@ -712,39 +796,40 @@ z-index: -3;
 
 .wrapper-it{
 	 width:7em;
-	 	 font-size:0.7em;
+	 	 font-size:0.5em;
     height:2em;
 
 }
 
 .container-options{
 	width:100%;
-	height:17.3em;
+	height:13em;
 }
 
 	 .image1{
-	 	 background-size:contain;
+	 	 background-size:100% 100%
 	 	
 	 }
 
 
 .options-items-left3{
-	font-size:13px;
+	font-size:10.2px;
 }
 .options-items-left{
-	font-size:28px;
+	font-size:26px;
 	width:35%;
 	height:20%;
+
 }
 .options-items-left2{
-	font-size:12px;
+	font-size:9px;
 	width:32%;
-	top:35%;
+	top:42%;
 }
 .options-items-left4{
-	font-size:12px;
+	font-size:9.5px;
 	width:20%;
-	top:7.7em;
+	top:6em;
 	right:0.1em;
 }
 
@@ -754,10 +839,13 @@ z-index: -3;
 	 
 }
 .options-items-left9{
-	font-size:12px;
-	width:26%;
+	font-size:8.8px;
+	width:21%;
 	top:35%;
 	
+}
+.align8{
+	font-size:8.8px;
 }
 .options-items-left7{
 	top:10%;
@@ -766,9 +854,9 @@ z-index: -3;
 	height:20%;
 }
 .options-items-left8{
-	top:30%;
-	font-size:12px;
-	width:33%;
+	top:33%;
+	font-size:8.8px;
+	width:38%;
 	height:20%;
 }
 .container-options1{
@@ -782,8 +870,8 @@ z-index: -3;
 
 .image3{
 	 background-size:contain;
-	 height:20em;
-	 top:3em;
+	 height:12em;
+	 
 	 
 }
 .options-items2{
@@ -791,20 +879,26 @@ z-index: -3;
 }
 
 .options-items-left11{
-font-size:12px;	
+font-size:8.8px;	
 }
 .options-items-left10{
-font-size:28px;	
+font-size:26px;	
 width:35%;
 }
 .options-items-left12{
-font-size:12px;	
+font-size:8.8px;	
 width:35%;
 }
 .options-items-left13{
 display:none;
 }
-
+.select1{
+	margin-top:2em;
+}
+.select-footwear{
+	top:127px;
+	left:0;
+}
 
 
 
@@ -829,22 +923,31 @@ z-index: -3;
 	height:100%;
 	 background-image: url('https://casperobuh.github.io/images/wrapperFootwear/fon1.jpg');
 	 background-repeat:no-repeat;
-	 background-size:740px 370px;
+	 background-size:840px 370px;
 }
 
 .right-menu{
-	height:6em;
+	width:60%;
+	height:auto;
+	
+	
+	
 }
 		.image-right{
-			border:1px solid black;
+		
+			
+			
 			background-image: url('https://casperobuh.github.io/images/wrapperFootwear/checkroom.jpg');
 			background-repeat: no-repeat;
-			background-size:40% 55%;
-			left:38%;
+			background-size:50vw 30vh;
+			
+			
+			
+			
 			}
 			.select1{
 	        width:80%;
-	        margin-top:4%;
+	        margin-top:10%;
 	}
 
 
@@ -882,7 +985,7 @@ z-index: -3;
 }
 
 .image2{
-	 background-size:contain;
+	 background-size:cover;
 	 height:20em;
 	 
 }
@@ -941,6 +1044,154 @@ top:7.5em;
 display:none;
 }
 
+
+
+
+.fixed{
+	width: 8em;
+	height: 2em;
+	margin-left:1em;
+	background: #9d7a4b;
+	cursor:pointer;
+	border-radius:6px;
+	text-align:center;
+	font-size:10px;
+}
+.ope1{
+	
+	left:2em;
+ 	font-size:0.6em;
+   height:4%;
+	width:6em;
+	height:2em;
+}
+.ope2{
+	
+	left:2em;
+ 	font-size:0.6em;
+   height:4%;
+	width:6em;
+	height:2em;
+	top:-2.5em;
+}
+.ope3{
+
+	left:2em;
+ 	font-size:0.6em;
+   height:4%;
+	width:6em;
+	height:2em;
+}
+.ope4{
+	
+	left:2em;
+ 	font-size:0.6em;
+   height:4%;
+	width:6em;
+	height:2em;
+}
+.ope5{
+	
+	left:2em;
+ 	font-size:0.6em;
+   height:4%;
+	width:6em;
+	height:2em;
+}
+   
+
+
+.wrapper-item2{
+	cursor:pointer;
+   width:7em;
+   font-size:0.8em;
+    height:2em;
+    padding-left:0.5em;
+}
+
+.wrapper-item3{
+	cursor:pointer;
+   width:7em; 
+     font-size:0.8em;
+    height:2em;
+    padding-left:0.5em;
+}
+	
+.wrapper-item{
+	width:7em;
+    font-size:0.8em;
+    height:2em;
+    padding-left:0.5em;
+}
+
+.wrapper-it{
+	padding-left:0.5em;
+	 width:7em;
+	 	 font-size:0.8em;
+    height:2em;
+
+}
+
+
+
+.wrapper-item::after {
+      content: "▶";
+      padding-left:20%;
+	
+}
+
+
+.login::after {
+      content: "▶";
+      padding-left:40%;
+	
+}
+
+.wrapper-item2::after {
+      content: "▶";
+       padding-left:8%;
+	
+}
+.wrapper-it::after {
+      content: "▶";
+      padding-left:10%;
+      
+}
+.select-footwear{
+	top:10em;
+}
+
+
+
+
+
+
+
+
+.open1{
+	font-size:0.8em;
+}
+
+.open2{
+	font-size:0.8em;
+	}
+.open3{
+	font-size:0.8em;
+}
+.open4{
+	font-size:0.8em;
+}
+.open5{
+	font-size:0.8em;
+	}
+
+
+.italian-image{
+	background-size: 50vw 30vh;
+}
+.englich-image{
+	background-size: 50vw 30vh;
+}
 }
 
 

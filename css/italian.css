@@ -1,4 +1,5 @@
-body, html{height:100%;}
+body, html{height:100%;
+}
 
 *{
 	margin:0;
@@ -133,6 +134,7 @@ position:relative;
 }
 .italian-image8{
 	width:100%;
+	
 	z-index:3;
 	background-size:cover;
 	height:100%;
@@ -231,56 +233,64 @@ position:relative;
 .str1-image{
 	
 	position:absolute;
-	left:1em;
-	top:4em;
+	
+	margin-left:1.2em;
+	
 	background-image: url('https://casperobuh.github.io/images/italianFootwear/str.png');
 	background-repeat:no-repeat;
 	z-index:8;
-	height:43%;
-	width:0;
+	height:10em;
+	width:40%;
 	background-size: 50px 100px;
 	cursor:pointer;
 }
 .str2-image{
 	
 	position:absolute;
-	left:0em;
-	top:4em;
+	margin-left:1.2em;
+	
 	background-image: url('https://casperobuh.github.io/images/italianFootwear/str.png');
 	background-repeat:no-repeat;
 	z-index:8;
-	height:43%;
+	height:10em;
 	background-size: 50px 100px;
 	cursor:pointer;
 width:40%;
 	
 }
 .str3-image{
-	
+	width:40%;
 	position:absolute;
-	top:4em;
+	margin-left:1.2em;
+	
 	background-image: url('https://casperobuh.github.io/images/italianFootwear/str.png');
 	background-repeat:no-repeat;
 	z-index:8;
-	height:43%;
+	height:10em;
 	background-size: 50px 100px;
 	cursor:pointer;
 }
 
 .str4-image{
-	
+	width:40%;
+	margin-left:1.2em;
 	position:absolute;
-	top:4em;
+	
 	background-image: url('https://casperobuh.github.io/images/italianFootwear/str.png');
 	background-repeat:no-repeat;
 	z-index:8;
-	height:43%;
+	height:10em;
 	background-size: 50px 100px;
 	cursor:pointer;
 }
 
 
+.str-wrapper{
+	width:3em;
+	
 
+
+}
 
 
 
@@ -294,11 +304,11 @@ width:40%;
 	z-index:3;
 	background-image: url('https://casperobuh.github.io/images/italianFootwear/italian-process_01.jpg');
 	background-repeat: no-repeat;
-	background-size:360px 350px;
+	background-size:100% 100%;
      }
      .italian-image2{
 	z-index:3;
-	background-size:360px 350px;
+	background-size:100% 100%;
 	width:100%;
 	height:100%;
 	background-image: url('https://casperobuh.github.io/images/italianFootwear/italian-process_02.jpg');
@@ -308,7 +318,7 @@ width:40%;
 .italian-image3{
 	width:100%;
 	z-index:3;
-	background-size:360px 350px;
+	background-size::100% 100%;
 	height:100%;
 	background-image: url('https://casperobuh.github.io/images/italianFootwear/italian-process_03.jpg');
 	background-repeat: no-repeat;
@@ -317,7 +327,7 @@ width:40%;
 .italian-image4{
 	z-index:3;
 	width:100%;
-	background-size:360px 350px;
+	background-size:;
 	height:100%;
 	background-image: url('https://casperobuh.github.io/images/italianFootwear/italian-process_04.jpg');
 	background-repeat: no-repeat;
@@ -326,7 +336,7 @@ width:40%;
 .italian-image5{
 	z-index:3;
 	width:100%;
-	background-size:360px 350px;
+	background-size:100% 100%;
 	height:100%;
 	background-image: url('https://casperobuh.github.io/images/italianFootwear/italian-process_05.jpg');
 	background-repeat: no-repeat;
@@ -335,7 +345,7 @@ width:40%;
 .italian-image6{
 	width:100%;
 	z-index:3;
-	background-size:360px 350px;
+	background-size:100% 100%;
 	height:100%;
 	background-image: url('https://casperobuh.github.io/images/italianFootwear/italian-process_06.jpg');
 	background-repeat: no-repeat;
@@ -343,7 +353,7 @@ width:40%;
 .italian-image7{
 	width:100%;
 	z-index:3;
-	background-size:360px 350px;
+	background-size:100% 100%;
 	height:100%;
 	background-image: url('https://casperobuh.github.io/images/italianFootwear/italian-process_07.jpg');
 	background-repeat: no-repeat;
@@ -351,7 +361,7 @@ width:40%;
 .italian-image8{
 	width:100%;
 	z-index:3;
-	background-size:360px 350px;
+	background-size:100% 100%;
 	height:100%;
 	background-image: url('https://casperobuh.github.io/images/italianFootwear/italian-process_08.jpg');
 	background-repeat: no-repeat;
@@ -363,7 +373,7 @@ width:40%;
 	color:white;
 	top:0;
 	right:0em;
-	font-size:1.7em;
+	font-size:1.5em;
 	top:1em;
 	
 }
@@ -374,7 +384,7 @@ width:40%;
 	color:white;
 	top:0;
 	right:0em;
-	font-size:1.7em;
+	font-size:1.5em;
 	top:1em;
 	
 }
@@ -385,7 +395,7 @@ width:40%;
 	color:white;
 	top:0;
 	right:0;
-	font-size:1.7em;
+	font-size:1.5em;
 	top:1em;
 	
 }
@@ -396,7 +406,7 @@ width:40%;
 	color:white;
 	top:0;
 	right:0;
-	font-size:1.7em;
+	font-size:1.5em;
 	top:1em;
 	
 }
@@ -407,7 +417,7 @@ width:40%;
 	color:white;
 	top:0;
 	right:0;
-	font-size:1.7em;
+	font-size:1.5em;
 	top:1em;
 	
 }
@@ -417,7 +427,7 @@ width:40%;
 	position:absolute;
 	color:white;
 	right:0;
-	font-size:1.7em;
+	font-size:1.5em;
 	top:1em;
 	
 }
@@ -427,7 +437,7 @@ width:40%;
 	position:absolute;
 	color:white;
 	right:0;
-	font-size:1.7em;
+	font-size:1.5em;
 	top:1em;
 	
 }
@@ -438,7 +448,230 @@ width:40%;
 	color:white;
 	top:1em;
 	right:0;
-	font-size:1.7em;
+	font-size:1.5em;
+	
+}
+.str1-image{
+	
+	position:absolute;
+	left:1em;
+	top:9em;
+	background-image: url('https://casperobuh.github.io/images/italianFootwear/str.png');
+	background-repeat:no-repeat;
+	z-index:8;
+	height:43%;
+	width:0;
+	background-size: 40px 40px;
+	cursor:pointer;
+	
+}
+.str2-image{
+	
+	position:absolute;
+	left:0em;
+	top:9em;
+	background-image: url('https://casperobuh.github.io/images/italianFootwear/str.png');
+	background-repeat:no-repeat;
+	z-index:8;
+	height:43%;
+	background-size: 40px 40px;
+	cursor:pointer;
+width:40%;
+	
+}
+.str3-image{
+	
+	position:absolute;
+	top:9em;
+	background-image: url('https://casperobuh.github.io/images/italianFootwear/str.png');
+	background-repeat:no-repeat;
+	z-index:8;
+	height:43%;
+	background-size: 40px 40px;
+	
+	cursor:pointer;
+}
+
+.str4-image{
+	
+	position:absolute;
+	
+	top:9em;
+	background-image: url('https://casperobuh.github.io/images/italianFootwear/str.png');
+	background-repeat:no-repeat;
+	z-index:8;
+	height:43%;
+	background-size: 40px 40px;
+	cursor:pointer;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:830px) and (min-width:568px) {
+	.italian-wrapper{
+		height:60%;
+	}
+     .italian-image1{
+     width:100%;
+	height:100%;
+	z-index:3;
+	background-image: url('https://casperobuh.github.io/images/italianFootwear/italian-process_01.jpg');
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+     }
+     .italian-image2{
+	z-index:3;
+	background-size:100% 100%;
+	width:100%;
+	height:100%;
+	background-image: url('https://casperobuh.github.io/images/italianFootwear/italian-process_02.jpg');
+	background-repeat: no-repeat;
+			
+}
+.italian-image3{
+	width:100%;
+	z-index:3;
+	background-size::100% 100%;
+	height:100%;
+	background-image: url('https://casperobuh.github.io/images/italianFootwear/italian-process_03.jpg');
+	background-repeat: no-repeat;
+	
+}
+.italian-image4{
+	z-index:3;
+	width:100%;
+	background-size:;
+	height:100%;
+	background-image: url('https://casperobuh.github.io/images/italianFootwear/italian-process_04.jpg');
+	background-repeat: no-repeat;
+	
+}
+.italian-image5{
+	z-index:3;
+	width:100%;
+	background-size:100% 100%;
+	height:100%;
+	background-image: url('https://casperobuh.github.io/images/italianFootwear/italian-process_05.jpg');
+	background-repeat: no-repeat;
+	
+}
+.italian-image6{
+	width:100%;
+	z-index:3;
+	background-size:100% 100%;
+	height:100%;
+	background-image: url('https://casperobuh.github.io/images/italianFootwear/italian-process_06.jpg');
+	background-repeat: no-repeat;
+}
+.italian-image7{
+	width:100%;
+	z-index:3;
+	background-size:100% 100%;
+	height:100%;
+	background-image: url('https://casperobuh.github.io/images/italianFootwear/italian-process_07.jpg');
+	background-repeat: no-repeat;
+}
+.italian-image8{
+	width:100%;
+	z-index:3;
+	background-size:100% 100%;
+	height:100%;
+	background-image: url('https://casperobuh.github.io/images/italianFootwear/italian-process_08.jpg');
+	background-repeat: no-repeat;
+}
+.italian-text-image1{
+	width:60%;
+	z-index:6;
+	position:absolute;
+	color:white;
+	top:0;
+	right:2em;
+	font-size:1.2em;
+	top:1em;
+	
+}
+.italian-text-image2{
+	width:60%;
+	z-index:6;
+	position:absolute;
+	color:white;
+	top:0;
+	right:2em;
+	font-size:1.2em;
+	top:1em;
+	
+}
+.italian-text-image3{
+	width:60%;
+	z-index:6;
+	position:absolute;
+	color:white;
+	top:0;
+	right:2em;
+	font-size:1.2em;
+	top:1em;
+	
+}
+.italian-text-image4{
+	width:60%;
+	z-index:6;
+	position:absolute;
+	color:white;
+	top:0;
+	right:2em;
+	font-size:1.2em;
+	top:1em;
+	
+}
+.italian-text-image5{
+	width:60%;
+	z-index:6;
+	position:absolute;
+	color:white;
+	top:0;
+	right:2em;
+	font-size:1.2em;
+	top:1em;
+	
+}
+.italian-text-image6{
+	width:60%;
+	z-index:6;
+	position:absolute;
+	color:white;
+	right:2em;
+	font-size:1.2em;
+	top:1em;
+	
+}
+.italian-text-image7{
+	width:60%;
+	z-index:6;
+	position:absolute;
+	color:white;
+	right:2em;
+	font-size:1.2em;
+	top:1em;
+	
+}
+.italian-text-image8{
+	width:60%;
+	z-index:6;
+	position:absolute;
+	color:white;
+	top:1em;
+	right:2em;
+	font-size:1.2em;
 	
 }
 .str1-image{
@@ -492,8 +725,36 @@ width:40%;
 	cursor:pointer;
 }
 
-
+/* .italian-wrapper-image2{
+	
+	
+} */
 
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

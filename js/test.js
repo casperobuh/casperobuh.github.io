@@ -1,4 +1,3 @@
-
 let button =  document.getElementById("button")
 
 let button1 =  document.getElementById("button").children[0]
@@ -18,6 +17,7 @@ let answer11 = document.getElementById("answer11")
 let answer12= document.getElementById("answer12")
 
 let result =0;
+
 let p = 100/36*3;
  
 
@@ -256,22 +256,24 @@ if(zzz==keys12[0]){
 console.log(o)
 let maxObj=o.reduce((prev,cur) => cur.keys4>prev.keys?cur:prev,{keys2:-Infinity});
 
-console.log(o)
+//console.log(o)
 
 	setTimeout(function(){
 	   if(target.tagName=="DIV") {
 		      result+=p;
-		     result=Math.ceil(result)
+          result=Math.ceil(result)
 		    	button2.textContent = "Точность рекомендации-"+ " " + result +" "+ "процентов";		
 	}
-	 if(target.tagName=="DIV"&& result==99) {
+  if(target.tagName=="DIV"&& result==99) {
           result=100;
           button2.textContent = "Точность рекомендации-"+ " " + result +" "+ "процентов";  
 
   }
+
 	},900)
+  
 })
-   
+  
 var s;
 
 button1.addEventListener("click", function(){
@@ -295,7 +297,7 @@ button1.addEventListener("click", function(){
    
   
 })
- console.log(o)
+// console.log(o)
  var tg = []
 function compare(a,b) {
   if (a.bal > b.bal)
@@ -321,6 +323,7 @@ document.location.href = "result.html"
 
 
 })
+
 
 
 
