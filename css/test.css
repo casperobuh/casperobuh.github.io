@@ -1,0 +1,595 @@
+body, html{
+	height:100%;
+}
+.img{
+	margin-left:3em;
+	font-size:1.5em;
+	width:90%;
+	padding:1.5em;
+	background-repeat:no-repeat;
+	background-image: url('https://casperobuh.github.io/images/test/p.jpg');
+	background-size:150% auto;
+	cursor:pointer;
+	z-index:10;
+}
+
+.img2{
+	margin-left:3em;
+	margin-top:4em;
+	padding:1.5em;
+	font-size:1.5em;
+	width:90%;
+	background-repeat:no-repeat;
+	background-image: url('https://casperobuh.github.io/images/test/p.jpg');
+	background-size:150% auto;
+	cursor:pointer;
+	z-index:10;
+}
+.img3{
+	margin-left:3em;
+	margin-top:4em;
+	padding:1.5em;
+	font-size:1.5em;
+	width:90%;
+	background-repeat:no-repeat;
+	background-image: url('https://casperobuh.github.io/images/test/p.jpg');
+	background-size:150% auto;
+	cursor:pointer;
+	z-index:10;
+}
+.img4{
+	margin-left:3em;
+	margin-top:0;
+	padding:1.5em;
+	font-size:1.5em;
+	width:90%;
+	background-repeat:no-repeat;
+	background-image: url('https://casperobuh.github.io/images/test/p.jpg');
+	background-size:150% auto;
+	cursor:pointer;
+	z-index:9;	
+}
+.img5{
+	margin-left:3em;
+	margin-top:4em;
+	padding:1.5em;
+	font-size:1.5em;
+	width:90%;
+	background-repeat:no-repeat;
+	background-image: url('https://casperobuh.github.io/images/test/p.jpg');
+	background-size:150% auto;
+	cursor:pointer;
+	z-index:9;	
+}
+.img6{
+	margin-left:3em;
+	background-size:150% auto;
+	width:90%;
+	margin-top:4em;
+	padding:1.5em;
+	font-size:1.5em;
+	width:90%;
+	background-repeat:no-repeat;
+	background-image: url('https://casperobuh.github.io/images/test/p.jpg');
+	cursor:pointer;
+	z-index:9;
+}
+.img7{
+	margin-left:3em;
+	background-size:150% auto;
+	width:90%;
+	padding:1.5em;
+	font-size:1.5em;
+	background-repeat:no-repeat;
+	background-image: url('https://casperobuh.github.io/images/test/p.jpg');
+	cursor:pointer;
+	z-index:8;
+}
+.img8{
+	margin-left:3em;
+	background-size:150% auto;
+	width:90%;
+	margin-top:4em;
+	padding:1.5em;
+	font-size:1.5em;
+	background-repeat:no-repeat;
+	background-image: url('https://casperobuh.github.io/images/test/p.jpg');
+	background-size:150% auto;
+	cursor:pointer;
+	z-index:8;
+}
+.img9{
+	margin-left:3em;
+	background-size:150% auto;
+	width:90%;
+	margin-top:4em;
+	padding:1.5em;
+	font-size:1.5em;
+	background-repeat:no-repeat;
+	background-image: url('https://casperobuh.github.io/images/test/p.jpg');
+	cursor:pointer;
+	z-index:8;
+}
+.img10{
+	margin-left:3em;
+	width:90%;
+	padding:1.5em;
+	font-size:1.5em;
+	width:90%;
+	background-repeat:no-repeat;
+	background-image: url('https://casperobuh.github.io/images/test/p.jpg');
+	background-size:150% auto;
+	cursor:pointer;
+	z-index:7;
+}
+.img11{
+	margin-left:3em;
+	background-size:150% auto;
+	width:90%;
+	margin-top:4em;
+	padding:1.5em;
+	font-size:1.5em;
+	width:90%;
+	background-repeat:no-repeat;
+	background-image: url('https://casperobuh.github.io/images/test/p.jpg');
+	cursor:pointer;
+	z-index:7;
+}
+.img12{
+	margin-left:3em;
+	background-size:150% auto;
+	width:90%;
+	margin-top:4em;
+	padding:1.5em;
+	font-size:1.5em;
+	width:90%;
+	background-repeat:no-repeat;
+	background-image: url('https://casperobuh.github.io/images/test/p.jpg');
+	cursor:pointer;
+	z-index:7;
+}
+.img13{
+	margin-left:3em;
+	background-size:150% auto;
+	width:90%;
+	padding:1.5em;
+	font-size:1.5em;
+	width:90%;
+	background-repeat:no-repeat;
+	background-image: url('https://casperobuh.github.io/images/test/p.jpg');
+	cursor:pointer;
+	z-index:6;
+}
+.img14{
+	margin-left:3em;
+	background-size:150% auto;
+	width:90%;
+	margin-top:4em;
+	padding:1.5em;
+	font-size:1.5em;
+	width:90%;
+	background-repeat:no-repeat;
+	background-image: url('https://casperobuh.github.io/images/test/p.jpg');
+	cursor:pointer;
+	z-index:6;
+}
+.img15{
+	margin-left:3em;
+	background-size:150% auto;
+	width:90%;
+	margin-top:4em;
+	padding:1.5em;
+	font-size:1.5em;
+	width:90%;
+	background-repeat:no-repeat;
+	background-image: url('https://casperobuh.github.io/images/test/p.jpg');
+	cursor:pointer;
+	z-index:7;
+}
+.img16{
+	margin-left:3em;
+	background-size:150% auto;
+	width:90%;
+	padding:1.5em;
+	font-size:1.5em;
+	width:90%;
+	background-repeat:no-repeat;
+	background-image: url('https://casperobuh.github.io/images/test/p.jpg');
+	cursor:pointer;
+	z-index:7;
+}
+.img17{
+	margin-left:3em;
+	background-size:150% auto;
+	width:90%;
+	margin-top:4em;
+	padding:1.5em;
+	font-size:1.5em;
+	background-repeat:no-repeat;
+	background-image: url('https://casperobuh.github.io/images/test/p.jpg');
+	cursor:pointer;
+	z-index:7;
+}
+.img18{
+	margin-left:3em;
+	background-size:150% auto;
+	width:90%;
+	margin-top:4em;
+	padding:1.5em;
+	font-size:1.5em;
+	background-repeat:no-repeat;
+	background-image: url('https://casperobuh.github.io/images/test/p.jpg');
+	cursor:pointer;
+	z-index:7;
+}
+.img19{
+	margin-left:3em;
+	background-size:150% auto;
+	width:90%;
+	padding:1.5em;
+	font-size:1.5em;
+	background-repeat:no-repeat;
+	background-image: url('https://casperobuh.github.io/images/test/p.jpg');
+	cursor:pointer;
+	z-index:7;
+}
+.img20{
+	margin-left:3em;
+	background-size:150% auto;
+	width:90%;
+	margin-top:4em;
+	padding:1.5em;
+	font-size:1.5em;
+	background-repeat:no-repeat;
+	background-image: url('https://casperobuh.github.io/images/test/p.jpg');
+	cursor:pointer;
+	z-index:7;
+}
+.img21{
+	margin-left:3em;
+	background-size:150% auto;
+	width:90%;
+	margin-top:4em;
+	padding:1.5em;
+	font-size:1.5em;
+	background-repeat:no-repeat;
+	background-image: url('https://casperobuh.github.io/images/test/p.jpg');
+	cursor:pointer;
+	z-index:7;
+}
+.img22{
+	margin-left:3em;
+	background-size:150% auto;
+	width:90%;
+	padding:1.5em;
+	font-size:1.5em;
+	background-repeat:no-repeat;
+	background-image: url('https://casperobuh.github.io/images/test/p.jpg');
+	cursor:pointer;
+	z-index:7;
+}
+.img23{
+	margin-left:3em;
+	background-size:150% auto;
+	width:90%;
+	margin-top:4em;
+	padding:1.5em;
+	font-size:1.5em;
+	background-repeat:no-repeat;
+	background-image: url('https://casperobuh.github.io/images/test/p.jpg');
+	cursor:pointer;
+	z-index:7;
+}
+.img24{
+	margin-left:3em;
+	background-size:150% auto;
+	width:90%;
+	margin-top:4em;
+	padding:1.5em;
+	font-size:1.5em;
+	background-repeat:no-repeat;
+	background-image: url('https://casperobuh.github.io/images/test/p.jpg');
+	cursor:pointer;
+	z-index:7;
+}
+.img25{
+	margin-left:3em;
+	background-size:150% auto;
+	width:90%;
+	padding:1.5em;
+	font-size:1.5em;
+	background-repeat:no-repeat;
+	background-image: url('https://casperobuh.github.io/images/test/p.jpg');
+	cursor:pointer;
+	z-index:7;
+}
+.img26{
+	margin-left:3em;
+	background-size:150% auto;
+	width:90%;
+	margin-top:4em;
+	padding:1.5em;
+	font-size:1.5em;
+	background-repeat:no-repeat;
+	background-image: url('https://casperobuh.github.io/images/test/p.jpg');
+	cursor:pointer;
+	z-index:7;
+}
+.img27{
+	margin-left:3em;
+	background-size:150% auto;
+	width:90%;
+	margin-top:4em;
+	padding:1.5em;
+	font-size:1.5em;
+	background-repeat:no-repeat;
+	background-image: url('https://casperobuh.github.io/images/test/p.jpg');
+	cursor:pointer;
+	z-index:7;
+}
+.img28{
+	margin-left:3em;
+	background-size:150% auto;
+	width:90%;
+	padding:1.5em;
+	font-size:1.5em;
+	background-repeat:no-repeat;
+	background-image: url('https://casperobuh.github.io/images/test/p.jpg');
+	cursor:pointer;
+	z-index:7;
+}
+.img29{
+	margin-left:3em;
+	background-size:150% auto;
+	width:90%;
+	margin-top:4em;
+	padding:1.5em;
+	font-size:1.5em;
+	background-repeat:no-repeat;
+	background-image: url('https://casperobuh.github.io/images/test/p.jpg');
+	cursor:pointer;
+	z-index:7;
+}
+.img30{
+	margin-left:3em;
+	background-size:150% auto;
+	width:90%;
+	margin-top:4em;
+	padding:1.5em;
+	font-size:1.5em;
+	background-repeat:no-repeat;
+	background-image: url('https://casperobuh.github.io/images/test/p.jpg');
+	cursor:pointer;
+	z-index:7;
+}
+.img31{
+	margin-left:3em;
+	background-size:150% auto;
+	width:90%;
+	padding:1.5em;
+	font-size:1.5em;
+	background-repeat:no-repeat;
+	background-image: url('https://casperobuh.github.io/images/test/p.jpg');
+	cursor:pointer;
+	z-index:7;
+}
+.img32{
+	margin-left:3em;
+	background-size:150% auto;
+	margin-top:4em;
+	padding:1.5em;
+	font-size:1.5em;
+	width:90%;
+	background-repeat:no-repeat;
+	background-image: url('https://casperobuh.github.io/images/test/p.jpg');
+	cursor:pointer;
+	z-index:7;
+}
+.img33{
+	margin-left:3em;
+	background-size:150% auto;
+	width:90%;
+	margin-top:4em;
+	padding:1.5em;
+	font-size:1.5em;
+	width:90%;
+	background-repeat:no-repeat;
+	background-image: url('https://casperobuh.github.io/images/test/p.jpg');
+	cursor:pointer;
+	z-index:7;
+}
+.img34{
+	margin-left:3em;
+	background-size:150% auto;
+	width:90%;
+	padding:1.5em;
+	font-size:1.5em;
+	width:90%;
+	background-repeat:no-repeat;
+	background-image: url('https://casperobuh.github.io/images/test/p.jpg');
+	cursor:pointer;
+	z-index:7;
+}
+.img35{
+	margin-left:3em;
+	background-size:150% auto;
+	width:90%;
+	margin-top:4em;
+	padding:1.5em;
+	font-size:1.5em;
+	width:90%;
+	background-repeat:no-repeat;
+	background-image: url('https://casperobuh.github.io/images/test/p.jpg');
+	cursor:pointer;
+	z-index:7;
+}
+.img36{
+	margin-left:3em;
+	background-size:150% auto;
+	width:90%;
+	margin-top:4em;
+	padding:1.5em;
+	font-size:1.5em;
+	width:90%;
+	background-repeat:no-repeat;
+	background-image: url('https://casperobuh.github.io/images/test/p.jpg');
+	cursor:pointer;
+	z-index:7;
+}
+.answer1{
+	margin-left:30%;
+	width:70%;
+}
+.answer2, .answer3, .answer4, .answer5, .answer6, .answer7, .answer8, .answer9, .answer10, .answer11, .answer12{
+	display:none;
+	margin-left:30%;
+	width:70%;
+}
+
+.button{
+	height:4em;
+	padding-top:4em;
+	box-sizing:border-box;
+}
+.result-button {
+	width:25%;
+	font-family: options_e;
+	margin-left:0.5em;
+	text-align:center;
+	line-height:1.2em;
+	cursor:pointer;
+	font-size:3em;
+	font-weight:900;
+}
+.col-button {
+	font-family: options_e;
+	width:25%;
+	line-height:1.2em;
+	margin-top:2em;
+	margin-left:0.5em;
+	text-align:center;
+	font-size:3em;
+	cursor:pointer;
+	font-weight:900;
+}
+.ball {
+	display:none;
+	margin-top:13em;
+	position:absolute;
+	margin-left:10%;
+	z-index:20;
+}
+.ball2{
+	display:none;
+	position:absolute;
+	margin-top:15em;
+	margin-left:30%;
+	z-index:20;
+}
+.ball3{
+	display:none;
+	margin-top:27em;
+	position:absolute;
+	margin-left:30%;
+	z-index:20;
+}
+.result{
+	display:inline-block;
+	width:70%;
+	position:relative;
+	bottom:95em;	
+}
+.result-two{
+	display:inline-block;
+	width:70%;
+	position:relative;
+	bottom:190em;	
+}
+.name{
+	text-shadow:1px 1px 40px;
+	position:absolute;
+	font-family:options_s;
+	right:4em;
+	top:2em;
+	font-size:40px;
+	display:inline-block;
+}
+.pname{
+	text-shadow:1px 1px 40px;
+	font-family:options_e;
+	left:1em;
+	display:inline-block;
+	font-size:1em;
+}
+.haracter{
+	text-shadow:1px 1px 40px;
+	right:7.5em;
+	top:3.3em;
+	position:absolute;
+	font-family:options_s;
+    font-size:26px;
+	display:inline-block;
+	margin-top:2em;
+}
+.haracteri{
+	text-shadow:1px 1px 40px;
+	font-family:options_e;
+	display:inline-block;
+	font-size:1em;
+	margin-top:2em;
+}
+.tufli{
+	text-shadow:1px 1px 40px;
+	right:3em;
+	top:3em;
+	position:absolute;
+	font-family:options_s;
+    font-size:40px;
+	display:inline-block;
+	margin-top:4em;
+}
+.tuflii{
+	text-shadow:1px 1px 40px;
+  	 margin-left: 0.4em;
+	font-family:options_e;
+	display:inline-block;
+	font-size:1em;
+}
+.button-result{
+	box-shadow:10px 10px 20px 10px;
+	font-family:options_e;
+	position:absolute;
+	right:8em;
+	top:15em;
+	font-size:1.5em;
+	border:1px solid black;
+	width:14em;
+	height:4em;
+	cursor:pointer;
+	text-align:center;
+	line-height:4em;
+	font-weight:bold;
+}
+.recom{
+	box-shadow:10px 10px 20px 10px;
+	font-weight:bold;
+	font-size:1.5em;
+	font-family:options_e;
+	position:absolute;
+	right:8em;
+	top:22em;
+	border:1px solid black;
+	width:14em;
+	height:4em;
+	cursor:pointer;
+	text-align:center;
+	line-height:4em;
+}
+.recom:hover{
+	margin-top:0.5em;
+}
+.button-result:hover{
+	margin-top:0.5em;
+}
+
+

@@ -1,0 +1,533 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;	
+}
+body{
+	overflow-x:hidden;	
+}
+  /* Начинаются  стили для главного меню  */
+  
+  .container-wrapper{
+	width:100%;
+	height:700px;
+	color:red;
+	min-width:1000px;
+	max-width:1600px;
+}
+
+.menu-image{
+	position:absolute;
+	z-index:-3;
+	width:100%;
+	height:100%;
+	background-image: url('https://casperobuh.github.io/images/wrapperFootwear/fon1.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.navigation-menu-image{
+	position:relative;
+	width:100%;
+	height:235px;	
+}
+.right-belt-image{
+	width:32em;
+	height:470px;
+	float:right;
+}
+.italian-belt-image{
+	width:0;
+	transition:width 2s linear;
+	position:absolute;
+	z-index: 6;
+	height:300px;
+	background-image: url('https://casperobuh.github.io/images/wrapperFootwear/italian.jpg');
+	background-repeat: no-repeat;
+	background-size:640px 240px;
+}
+.english-belt-image{
+	width:0;
+	transition:width 2s linear;
+	position:absolute;
+	z-index: 10;
+	height:300px;
+	background-image: url('https://casperobuh.github.io/images/wrapperFootwear/english.jpg');
+	background-repeat: no-repeat;
+	background-size:640px 240px;
+}
+.belts-image{
+	width:0;
+	transition:width 2s linear;
+	position:absolute;
+	z-index: 10;
+	height:300px;
+	background-image: url('https://casperobuh.github.io/images/wrapperFootwear/leather.jpg');
+	background-repeat: no-repeat;
+	background-size:640px 240px;
+}
+.leather-image{
+	width:0;
+	transition:width 2s linear;
+	position:absolute;
+	z-index: 10;
+	height:300px;
+	background-image: url('https://casperobuh.github.io/images/wrapperFootwear/leather.jpg');
+	background-repeat: no-repeat;
+	background-size:640px 240px;
+}
+.garters-image{
+	width:0;
+	transition:width 2s linear;
+	position:absolute;
+	z-index: 10;
+	height:300px;
+	background-image: url('https://casperobuh.github.io/images/wrapperFootwear/english.jpg');
+	background-repeat: no-repeat;
+	background-size:640px 270px;
+}
+.image-belt-right{
+	position:absolute;
+    z-index: 3;
+	width:50%;
+	height:100%;
+	background-image: url('https://casperobuh.github.io/images/wrapperFootwear/checkroom.jpg');
+	background-repeat: no-repeat;
+	background-size:640px 270px;
+}
+.contacts-image{
+	width:0px;
+	transition:width 2s linear;
+	position:absolute;
+	z-index: 10;
+	height:300px;
+	background-image: url('https://casperobuh.github.io/images/wrapperFootwear/rr.jpg');
+	background-repeat: no-repeat;
+	background-size:520px 240px;
+}
+p{
+	width:400px;
+	display:none;
+	z-index:2;
+	margin-top:0.5em;
+	margin-left:4em;
+	font-size:1.6em;
+}
+.text-belt-right{
+	width:70%;
+	height:100%;
+	z-index: 6;
+	position: relative;
+	margin:0 auto;
+	color:green;
+}
+.navigation-list{
+	clear:both;
+	display:inline-block;
+	width:40%;
+	height:400px;
+	margin-top:18em;
+}
+.footwear, .Accessories, .test, .contacts{
+	width:8em;
+	background:#9d7a4b;
+   	height:8%;
+   	text-align:center;
+	margin-left:2em;
+	cursor:pointer;
+	border-radius:6px;
+	color:#FDF5E6;
+	margin-top:1em;
+}
+.footwear::after {
+  	content: "▶";
+  	padding-left:38px;
+}
+.Accessories::after {
+  	content: "▶";
+  	padding-left:20px;   	
+}
+.test::after {
+  	content: "▶";
+  	padding-left:70px;
+}
+.contacts::after {
+  	content: "▶";
+	padding-left:35px;	
+}
+.footwear-list{
+	position:absolute;
+   	margin-top:19em;
+   	left:2em;
+    display:inline-block;
+	width:60%;
+	visibility: hidden;
+	height:50px;
+	border:1px solid black;	
+}
+.Italian-Shoe, .English-Shoe, .Belts, .Leather-bags, .Garters, .Italian-Shoe-fixed, .English-Shoe-fixed, .Belts-fixed, .Belts-fixed, .Garters-fixed{
+	position:absolute;
+	cursor:pointer;
+}
+.Italian-Shoe{
+	left:0em;
+ 	z-index:-2;
+	border:1px solid #9d7a4b;
+	background:#9d7a4b;
+	width:6em;
+	height:2em;
+	text-align:center;
+	line-height:1.8em;
+	color:#FDF5E6;
+	border-radius:6px;
+	display:inline-block;	 
+}
+.English-Shoe{
+	left:10em; 
+	color:#FDF5E6;
+	z-index:2;
+	opacity:0.8;
+	background:#9d7a4b;
+	width:6em;
+	height:2em;
+	width:6em;
+	height:2em;
+	text-align:center;
+	line-height:1.8em;
+	border-radius:6px;
+	display:inline-block;
+	}
+.Belts{
+	left:18em; 
+	opacity:0.8;
+	color:#FDF5E6;
+	background:#9d7a4b;
+  	border-radius:6px;
+	height:2em;
+	width:6em;
+	display:inline-block;
+	text-align:center;
+	line-height:1.8em;}
+.Leather-bags{
+	cursor:pointer;
+	left:26em;
+	opacity:0.8;
+ 	color:#FDF5E6;
+	background:#9d7a4b;
+   	border-radius:6px;
+	width:6em;
+	height:2em;
+	text-align:center;
+	line-height:1.8em;
+	display:inline-block;
+}
+.Garters{
+	left:34em;
+ 	opacity:0.6;
+ 	color:#FDF5E6;
+	background:#9d7a4b;
+	width:6em;
+	height:2em;
+	text-align:center;
+	line-height:1.8em;
+	border-radius:6px;
+	display:inline-block;
+}
+
+.navigation-list-fixed{
+	height:800px;
+	visibility:hidden;
+	z-index:2;
+	position:fixed;
+	top:0;
+}
+.block-flex{
+	display:flex;
+	position:relative;
+}
+.footwear-fixed, .Accessories-fixed, .contacts-fixed, .test-fixed{
+	width: 8em;
+	height: 2em;
+	margin-left:2em;
+	background: #9d7a4b;
+	cursor:pointer;
+	border-radius:6px;
+	text-align:center;
+}
+.footwear-list-fixed{
+	position: absolute;
+	width:100%;
+	visibility: hidden;
+}
+.Italian-Shoe-fixed{
+	position:absolute;
+	cursor:pointer;
+	top:0em;
+	left:3em;
+	bottom:10em; 
+ 	z-index:-5;
+	background:#9d7a4b;
+	width:6em;
+	height:2em;
+	text-align:center;
+	line-height:1.8em;
+	color:#FDF5E6;
+	border-radius:6px;
+}
+.English-Shoe-fixed{
+	position:absolute;
+	cursor:pointer;
+	left:3em;
+	color:#FDF5E6;
+	opacity:0.8;
+	background:#9d7a4b;
+	width:6em;
+	height:2em;
+	text-align:center;
+	line-height:1.8em;
+	border-radius:6px;
+	top:10em;
+	}
+.Belts-fixed{
+	position:absolute;
+	cursor:pointer;
+	top:18em; 
+	left:3em;
+	opacity:0.8;
+	color:#FDF5E6;
+	background:#9d7a4b;
+  	border-radius:6px;
+	height:2em;
+	width:6em;
+	text-align:center;
+	line-height:1.8em;}
+.Leather-bags-fixed{
+	position:absolute;
+	cursor:pointer;
+	top:26em;
+	left:3em;
+ 	opacity:0.8;
+  	color:#FDF5E6;
+	background:#9d7a4b;
+   	border-radius:6px;
+	width:6em;
+	height:2em;
+	text-align:center;
+	line-height:1.8em;
+}
+.Garters-fixed{
+	position:absolute;
+	cursor:pointer;
+	top:34em;
+	left:3em;
+	opacity:0.6;
+ 	color:#FDF5E6;
+	background:#9d7a4b;
+	width:6em;
+	height:2em;
+	text-align:center;
+	line-height:1.8em;
+	border-radius:6px;
+}
+	
+/* Заканчиваются стили для глвного меню */
+/* Начинаются стили о первом товаре */
+.container-wrapper-first-product{
+	position:relative;
+	width:100%;
+	height:66em;
+}
+.first-product-image{
+	position:absolute;
+	width:100%;
+	height:100%;
+ 	background-image: url('https://casperobuh.github.io/images/wrapperFootwear/fon2.jpg');
+ 	background-repeat:no-repeat;
+ 	background-size:cover;
+}
+.first-product-header-text-men{
+	font-family:options_s;
+	font-size:8em;
+	color:#FFFFFF;
+	position:absolute;
+    left:0.5em;
+	width:45%;
+	height:40%;
+}
+.first-product-header-sup{
+	color:#000000;
+	font-size:150%;
+}
+.first-product-text-one{
+	position:absolute;
+	height:200px;
+	font-size:44px;
+	left:1em;
+	width:30%;
+	top:36%;
+	line-height: 0.9;
+}
+.color-text-white{
+	color:#FFFFFF;
+}
+.first-product-text-two{
+	position:absolute;
+	height:200px;
+	font-size:44px;
+	top:1em;
+	width:20%;
+	right:1em;
+}
+.first-product-text-three{
+	position:absolute;
+	height:200px;
+	font-size:44px;
+	top:5.5em;
+	right:1em;
+	width:17%;
+}
+/* Заканчиваются стили о первом товаре */
+/* Начинаются стили о втором товаре */
+.container-wrapper-two-product{
+	position:relative;
+	width:100%;
+	height:43em;	
+}
+.two-product-image{
+	position:absolute;
+	width:100%;
+	height:55em;
+ 	background-image: url('https://casperobuh.github.io/images/wrapperFootwear/tufli3.jpg');
+ 	background-repeat:no-repeat;
+ 	 background-size:cover;
+}
+.two-product-header-text{
+	font-family:options_s;
+	font-size:8em;
+	color:#FFFFFF;
+	text-align:right;
+	position:absolute;
+	top:0.5em;
+    right:0.5em;
+	width:40%;
+	height:40%;
+}
+.two-product-text-one{
+	position:absolute;
+	height:200px;
+	font-size:44px;
+	top:8em;
+	width:30%;
+	right:1em;
+	text-align:right;
+}
+.two-product-text-two{
+	width:85%;
+	margin-left:15%;
+}
+.two-product-text-three{
+	position:absolute;
+	height:200px;
+	font-size:44px;
+	bottom:1em;
+	width:25%;
+	left:1em;
+}
+.two-product-text-four{
+	width:60%;
+}
+.two-product-text-five {
+	width:120%;
+}
+/* Заканчиваются стили о втором товаре */
+/* Начинаются стили о третьем товаре */
+.container-wrapper-three-product{
+	position:relative;
+	margin-top:150px;
+	width:100%;
+	height:900px;
+}
+.three-product-image{
+	position:absolute;
+	width:100%;
+	height:900px;
+ 	background-image: url('https://casperobuh.github.io/images/wrapperFootwear/tufli1-copy.jpg');
+ 	background-repeat:no-repeat;
+ 	background-size:cover;
+}
+.text-container-three-product{
+	position:absolute;
+	width:100%;
+	height:1100px;
+	color:green;
+}
+.three-product-header-text{
+	font-family:options_s;
+	font-size:8em;
+	color:#000000;
+	text-align:right;
+	position:absolute;
+	top:0.5em;
+    right:0.5em;
+	width:40%;
+	height:40%;
+}
+.three-product-text-one{
+	position:absolute;
+	height:200px;
+	font-size:44px;
+	top:1em;
+	width:30%;
+	left:1em;
+}
+.three-product-text-two{
+	position:absolute;
+	height:200px;
+	font-size:44px;
+	top:8em;
+	width:30%;
+	right:1em;
+	text-align:right;
+}
+.three-product-text-three{
+	position:absolute;
+	height:200px;
+	font-size:44px;
+	top:5.5em;
+	width:15%;
+	left:1em;
+	font-size:5em;
+	color:#9ACD32;
+	border:12px dotted #9ACD32;
+	height:11%;
+	text-align:center;
+}
+/* Заканчиваются стили о третьем товаре */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
