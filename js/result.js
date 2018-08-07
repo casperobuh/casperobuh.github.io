@@ -1,4 +1,4 @@
-                                                                 //Обьявление переменных
+                                                                //Обьявление переменных
 let info_name_one = document.createElement("div");                                          let recomendation_button = document.createElement("div");
 let info_haracter_one = document.createElement("div");                                      let model_footwear_one = document.createElement("div");
 let to_enlarge_img_button = document.createElement("div");                                  let model_footwear_two = document.createElement("div");
@@ -40,15 +40,15 @@ arr_img={
  "Арнольд Шварценеггер":mkImage("https://casperobuh.github.io/images/polity/arnold.jpg"),
  "Владимир Путин":mkImage("https://casperobuh.github.io/images/polity/putin.jpg"),
  "Дмитрий Медведев":mkImage("https://casperobuh.github.io/images/polity/medvedev.jpg"),
- "Александр Лукашенко": mkImage("https://casperobuh.github.io/images/polity/lucahenko.jpg"),
- "Сильвио Берлускони":mkImage("https://casperobuh.github.io/images/polity/berlusconi.jpg"),
- "Дональд Трамп":mkImage("https://casperobuh.github.io/images/polity/trump.jpg"),
- "Владимир Жириновский":mkImage("https://casperobuh.github.io/images/polity/zhirinovskiy.jpg"),
- "Павел Дуров": mkImage("https://casperobuh.github.io/images/polity/durov.jpg"),
- "Билл Гейтс":mkImage("https://casperobuh.github.io/images/polity/gate.jpg"),
- "Анатолий Чубайс":mkImage("https://casperobuh.github.io/images/polity/chubuys.jpg"),
- "Павел Воля":mkImage("https://casperobuh.github.io/images/polity/voly.jpg"),
- "Стив Джобс":mkImage("https://casperobuh.github.io/images/polity/stiv.jpg"),             
+ "Александр Лукашенко": mkImage("C:/learn/images/polity/lucahenko.jpg"),
+ "Сильвио Берлускони":mkImage("C:/learn/images/polity/berlusconi.jpg"),
+ "Дональд Трамп":mkImage("C:/learn/images/polity/trump.jpg"),
+ "Владимир Жириновский":mkImage("C:/learn/images/polity/zhirinovskiy.jpg"),
+ "Павел Дуров": mkImage("C:/learn/images/polity/durov.jpg"),
+ "Билл Гейтс":mkImage("C:/learn/images/polity/gate.jpg"),
+ "Анатолий Чубайс":mkImage("C:/learn/images/polity/chubuys.jpg"),
+ "Павел Воля":mkImage("C:/learn/images/polity/voly.jpg"),
+ "Стив Джобс":mkImage("C:/learn/images/polity/stiv.jpg"),             
 }
 
                                          //Общие настройки для телефонов и компьютеров.
@@ -59,7 +59,7 @@ let arr_unique_hero =[]; let arr_img_unique_hero = [];  let a =0;
 let screen_width_pc_n = 850;                 let screen_width_pc_k =2000;             let width_img_pc =100;                           let height_img_pc = 800;                                
 let screen_width_phone_min = 550;            let screen_width_phone_max = 830;        let screen_width_phone_portrait_min = 310;       let screen_width_phone_portrait_max = 480;
 let timePassed_img_phone_portrait = 4000;    let timePassed_img_phone = 8500;         let timePassed_img_pc = 8500;                    let height_img_phone_portrait = 350;
-let height_img_phone = 340;                  let img_getBoundingClientRect_bottom =800;
+let height_img_phone = 340;                  let img_getBoundingClientRect_bottom =800;  let bottom_phone = 350;                                              
 
 let timePassed_information_hero_name_pc_min = 13000;                      let timePassed_information_hero_name_pc_max = 13050;
 let timePassed_information_hero_name_phone_portrait_min = 5000;           let timePassed_information_hero_name_phone_portrait_max = 5050;
@@ -341,16 +341,16 @@ if(typeof hero_img_three == "undefined") {
      }
      })
                         //функция увеличения героев.
-function zoom_img (zoom) {
+function zoom_img (screen_min,screen_max,zoom,zoom_bottom,timePassed) {
 	let start=  Date.now();
 	let yy = setInterval(function(){
     let time = Date.now()-start;
-		if(time<timePassed_img_pc){
+		if(screen.width>screen_min&&screen.width<screen_max&&time<timePassed){
 		    zoom.style.height ="auto"
 		    zoom.style.width =parseInt( getComputedStyle(zoom).width)+2 + "px";
 	   } 
 
-	    if(time>timePassed_img_pc&&zoom.getBoundingClientRect().bottom>img_getBoundingClientRect_bottom){
+	    if(screen.width>screen_min&&screen.width<screen_max&&time>timePassed&&zoom.getBoundingClientRect().bottom>zoom_bottom){
 	     zoom.style.marginTop = parseInt( getComputedStyle(zoom).marginTop)-2 + "px";
 	   } 
 	   
@@ -371,13 +371,20 @@ function zoom_img (zoom) {
  		 model_footwear_one.style.display = "none";
  		 to_enlarge_img_button.style.display = "none";
  	     recomendation_button.style.display = "none";
- 	     zoom_img(hero_img_one)
+ 	     zoom_img(screen_width_pc_n, screen_width_pc_k,hero_img_one,img_getBoundingClientRect_bottom,timePassed_img_pc);
+ 	     zoom_img(screen_width_phone_min,screen_width_phone_max,hero_img_one,bottom_phone,4000);
+ 	     zoom_img(screen_width_phone_portrait_min,screen_width_phone_portrait_max,hero_img_one,1200,1500);
+ 	      
  	}
  	if(z==1&&a==1){
- 		 zoom_img(hero_img_two)
+ 		 zoom_img(screen_width_pc_n, screen_width_pc_k,hero_img_two,img_getBoundingClientRect_bottom,timePassed_img_pc);
+ 	     zoom_img(screen_width_phone_min,screen_width_phone_max,hero_img_two,bottom_phone,4000);
+ 	     zoom_img(screen_width_phone_portrait_min,screen_width_phone_portrait_max,hero_img_two,1200,1500);
  	}
  	if(z==1&&a==2){
- 	 	zoom_img(hero_img_three)
+ 	 	 zoom_img(screen_width_pc_n, screen_width_pc_k,hero_img_three,img_getBoundingClientRect_bottom,timePassed_img_pc);
+ 	     zoom_img(screen_width_phone_min,screen_width_phone_max,hero_img_three,bottom_phone,4000);
+ 	     zoom_img(screen_width_phone_portrait_min,screen_width_phone_portrait_max,hero_img_three,1200,1500);
  	}
 	 	
  })
