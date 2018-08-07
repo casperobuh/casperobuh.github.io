@@ -1,5 +1,7 @@
 body, html{
 	height:100%;
+	overflow-x:hidden;
+	
 }
 *{
 	margin:0;
@@ -79,7 +81,7 @@ body, html{
 	background-size:cover;
 	width:100%;
 	height:100%;
-	background-image: url('https://casperobuh.github.io/images/italianFootwear/italian-process_02.jpg');
+	background-image: url('C:/learn/images/italianFootwear/italian-process_02.jpg');
 	background-repeat: no-repeat;			
 }
 .footwear-image-three{
@@ -218,9 +220,9 @@ body, html{
 	background-image: url('https://casperobuh.github.io/images/italianFootwear/str.png');
 	background-repeat:no-repeat;
 	z-index:8;
-	height:10em;
+	height:4em;
 	width:40%;
-	background-size: 50px 100px;
+	background-size: 50px 70px;
 	cursor:pointer;
 }
 .arrow-image-two{
@@ -228,8 +230,8 @@ body, html{
 	background-image: url('https://casperobuh.github.io/images/italianFootwear/str.png');
 	background-repeat:no-repeat;
 	z-index:8;
-	height:10em;
-	background-size: 50px 100px;
+	height:4em;
+	background-size: 50px 70px;
 	cursor:pointer;
 	width:40%;
 	
@@ -240,8 +242,8 @@ body, html{
 	background-image: url('https://casperobuh.github.io/images/italianFootwear/str.png');
 	background-repeat:no-repeat;
 	z-index:8;
-	height:10em;
-	background-size: 50px 100px;
+	height:4em;
+	background-size: 50px 70px;
 	cursor:pointer;
 }
 .arrow-image-four{
@@ -250,8 +252,8 @@ body, html{
 	background-image: url('https://casperobuh.github.io/images/italianFootwear/str.png');
 	background-repeat:no-repeat;
 	z-index:8;
-	height:10em;
-	background-size: 50px 100px;
+	height:4em;
+	background-size: 50px 70px;
 	cursor:pointer;
 }
 .arrow-wrapper{
