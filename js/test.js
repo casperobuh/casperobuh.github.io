@@ -1,4 +1,4 @@
-                                                //Объявление переменных 
+                                               //Объявление переменных 
 let button_show_recomendation =  document.getElementById("button").children[0]
 let button_accuracy_recomendation=  document.getElementById("button").children[1]
 let block_quote = document.getElementById("answer")
