@@ -1,12 +1,13 @@
-@media(max-width:450px) and (min-width:320px) {
+@media(max-width:470px) and (min-width:310px) {
 	.footwear-wrapper{
 		height:60%;
+		
 	}
     .footwear-image-one{
 	    width:100%;
 		height:100%;
 		z-index:3;
-		background-image: url('https://casperobuh.github.io/images/italianFootwear/italian-process_01.jpg');
+		background-image: url('C:/learn/images/italianFootwear/italian-process_01.jpg');
 		background-repeat: no-repeat;
 		background-size:100% 100%;
     }
@@ -23,7 +24,7 @@
 		z-index:3;
 		background-size::100% 100%;
 		height:100%;
-		background-image: url('https://casperobuh.github.io/images/italianFootwear/italian-process_03.jpg');
+		background-image: url('C:/learn/images/italianFootwear/italian-process_03.jpg');
 		background-repeat: no-repeat;
 	}
 	.footwear-image-four{
@@ -47,7 +48,7 @@
 		z-index:3;
 		background-size:100% 100%;
 		height:100%;
-		background-image: url('https://casperobuh.github.io/images/italianFootwear/italian-process_06.jpg');
+		background-image: url('C:/learn/images/italianFootwear/italian-process_06.jpg');
 		background-repeat: no-repeat;
 	}
 	.footwear-image-seven{
@@ -67,81 +68,89 @@
 		background-repeat: no-repeat;
 	}
 	.footwear-text-image-one{
+		left:8em;
 		width:65%;
 		z-index:6;
 		position:absolute;
 		color:white;
 		top:0;
 		right:0em;
-		font-size:1.3em;
+		font-size:1em;
 		top:1em;	
 	}
 	.footwear-text-image-two{
+		left:8em;
 		width:65%;
 		z-index:6;
 		position:absolute;
 		color:white;
 		top:0;
 		right:0em;
-		font-size:1.3em;
+		font-size:1em;
 		top:1em;
 	}
 	.footwear-text-image-three{
+		left:8em;
 		width:65%;
 		z-index:6;
 		position:absolute;
 		color:white;
 		top:0;
 		right:0;
-		font-size:1.3em;
+		font-size:1em;
 		top:1em;
 	}
 	.footwear-text-image-four{
+		left:8em;
 		width:65%;
 		z-index:6;
 		position:absolute;
 		color:white;
 		top:0;
 		right:0;
-		font-size:1.3em;
+		font-size:1em;
 		top:1em;
 	}
 	.footwear-text-image-five{
+		left:8em;
 		width:65%;
 		z-index:6;
 		position:absolute;
 		color:white;
 		top:0;
 		right:0;
-		font-size:1.3em;
+		font-size:1em;
 		top:1em;
 	}
 	.footwear-text-image-six{
+		left:8em;
 		width:65%;
 		z-index:6;
 		position:absolute;
 		color:white;
 		right:0;
-		font-size:1.3em;
+		font-size:1em;
 		top:1em;
 	}
 	.footwear-text-image-seven{
+		left:8em;
 		width:65%;
 		z-index:6;
 		position:absolute;
 		color:white;
 		right:0;
-		font-size:1.3em;
+		font-size:1em;
 		top:1em;
 	}
 	.footwear-text-image-eight{
+		left:8em;
 		width:65%;
 		z-index:6;
 		position:absolute;
 		color:white;
 		top:1em;
 		right:0;
-		font-size:1.3em;
+		font-size:1em;
 	}
 	.arrow-image-one{
 		position:absolute;
@@ -150,7 +159,6 @@
 		background-image: url('https://casperobuh.github.io/images/italianFootwear/str.png');
 		background-repeat:no-repeat;
 		z-index:8;
-		height:43%;
 		width:0;
 		background-size: 40px 40px;
 		cursor:pointer;
@@ -162,18 +170,18 @@
 		background-image: url('https://casperobuh.github.io/images/italianFootwear/str.png');
 		background-repeat:no-repeat;
 		z-index:8;
-		height:43%;
+		
 		background-size: 40px 40px;
 		cursor:pointer;
 		width:40%;	
 	}
 	.arrow-image-three{
+
 		position:absolute;
 		top:9em;
 		background-image: url('https://casperobuh.github.io/images/italianFootwear/str.png');
 		background-repeat:no-repeat;
 		z-index:8;
-		height:43%;
 		background-size: 40px 40px;
 		cursor:pointer;
 	}
@@ -184,16 +192,16 @@
 		background-image: url('https://casperobuh.github.io/images/italianFootwear/str.png');
 		background-repeat:no-repeat;
 		z-index:8;
-		height:43%;
 		background-size: 40px 40px;
 		cursor:pointer;
+		
 	}
 }
 
 
 
 
-@media(max-width:830px) and (min-width:568px) {
+@media(max-width:830px) and (min-width:430px) {
 	body{
 		overflow-x:hidden;	
 	}
@@ -221,7 +229,7 @@
 		z-index:3;
 		background-size::100% 100%;
 		height:100%;
-		background-image: url('https://casperobuh.github.io/images/italianFootwear/italian-process_03.jpg');
+		background-image: url('C:/learn/images/italianFootwear/italian-process_03.jpg');
 		background-repeat: no-repeat;	
 	}
 	.footwear-image-four{
@@ -273,6 +281,7 @@
 		right:2em;
 		font-size:1em;
 		top:1em;
+		left:9em;
 	}
 	.footwear-text-image-two{
 		width:60%;
@@ -280,9 +289,9 @@
 		position:absolute;
 		color:white;
 		top:0;
-		right:2em;
 		font-size:1em;
 		top:1em;
+		left:9em;
 	}
 	.footwear-text-image-three{
 		width:60%;
@@ -293,6 +302,7 @@
 		right:2em;
 		font-size:1em;
 		top:1em;
+		left:9em;
 	}
 	.footwear-text-image-four{
 		width:60%;
@@ -303,6 +313,7 @@
 		right:2em;
 		font-size:1em;
 		top:1em;
+		left:9em;
 	}
 	.footwear-text-image-five{
 		width:60%;
@@ -312,7 +323,8 @@
 		top:0;
 		right:2em;
 		font-size:1em;
-		top:1em;	
+		top:1em;
+		left:9em;	
 	}
 	.footwear-text-image-six{
 		width:60%;
@@ -322,6 +334,7 @@
 		right:2em;
 		font-size:1em;
 		top:1em;
+		left:9em;
 	}
 	.footwear-text-image-seven{
 		width:60%;
@@ -331,6 +344,7 @@
 		right:2em;
 		font-size:1em;
 		top:1em;
+		left:9em;
 	}
 	.footwear-text-image-eight{
 		width:60%;
@@ -340,6 +354,7 @@
 		top:1em;
 		right:2em;
 		font-size:1em;
+		left:9em;
 	}
 	.arrow-image-one{
 		position:absolute;
@@ -349,7 +364,7 @@
 		background-repeat:no-repeat;
 		z-index:8;
 		width:0;
-		background-size: 50px 50px;
+		background-size: 40px 40px;
 		cursor:pointer;
 	}
 	.arrow-image-two{
@@ -359,7 +374,7 @@
 		background-image: url('https://casperobuh.github.io/images/italianFootwear/str.png');
 		background-repeat:no-repeat;
 		z-index:8;
-		background-size: 50px 50px;
+		background-size: 40px 40px;
 		cursor:pointer;
 		width:40%;
 	}
@@ -369,16 +384,16 @@
 		background-image: url('https://casperobuh.github.io/images/italianFootwear/str.png');
 		background-repeat:no-repeat;
 		z-index:8;
-		background-size: 50px 50px;
+		background-size: 40px 40px;
 		cursor:pointer;
 	}
 	.arrow-image-four{
 		position:absolute;
 		top:9em;
-		background-image: url('https://casperobuh.github.io/images/italianFootwear/str.png');
+		background-image: url('C:/learn/images/italianFootwear/str.png');
 		background-repeat:no-repeat;
 		z-index:8;
-		background-size: 50px 50px;
+		background-size: 40px 40px;
 		cursor:pointer;
 	}
 }
