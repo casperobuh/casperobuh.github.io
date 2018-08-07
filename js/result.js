@@ -3,7 +3,7 @@ let info_name_one = document.createElement("div");                              
 let info_haracter_one = document.createElement("div");                                      let model_footwear_one = document.createElement("div");
 let to_enlarge_img_button = document.createElement("div");                                  let model_footwear_two = document.createElement("div");
 let image_wrapper_block = document.getElementById("result-wrapper");                        let image_block = document.getElementById("result-wrapper").children[0];
-let arr_name_hero = JSON.parse(localStorage.getItem("tg"));                                 let arr_object_hero = JSON.parse(localStorage.getItem("o"));
+let arr_name_hero = JSON.parse(localStorage.getItem("tg"));                                 let arr_object_hero = JSON.parse(localStorage.getItem("hero_quality"));
 
                                         //обьект   с фотографиями 
 
