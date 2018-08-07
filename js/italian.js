@@ -1,4 +1,4 @@
-                    //Объявляем переменные
+               //Объявляем переменные
 let text =  document.getElementById("str-wrapper")
 let italianImage = document.getElementById("italian-image").children[0];
 let italianImageo2 = document.getElementById("italian-wrapper-image2")
@@ -158,36 +158,36 @@ if(screen.width>880){
 
 if(screen.width>310&&screen.width<480) {
 	function mar(mar1){
-		mar1.children[0].style.top  = 15 + "em";     mar1.children[0].style.marginLeft  = 13 + "em";
-		mar1.children[1].style.top  = 15 + "em";     mar1.children[1].style.marginLeft  = 13 + "em";
-		mar1.children[2].style.top  = 15 + "em";     mar1.children[2].style.marginLeft  = 13 + "em";
-		mar1.children[3].style.top  = 15 + "em";     mar1.children[3].style.marginLeft  = 13 + "em";
+		mar1.children[0].style.top  = 8 + "em";     mar1.children[0].style.marginLeft  = 13 + "em";
+		mar1.children[1].style.top  = 8 + "em";     mar1.children[1].style.marginLeft  = 13 + "em";
+		mar1.children[2].style.top  = 8 + "em";     mar1.children[2].style.marginLeft  = 13 + "em";
+		mar1.children[3].style.top  = 8 + "em";     mar1.children[3].style.marginLeft  = 13 + "em";
 	}
 
 		mar(text2); mar(text3); mar(text4); mar(text5); mar(text6); mar(text7); mar(text8);
 
 	function mar2(mar2){
-		mar2.children[0].style.top  = 17 + "em";      mar2.children[2].style.top  = 17 + "em";
-		mar2.children[1].style.top  = 17 + "em";      mar2.children[3].style.top  = 17 + "em";
+		mar2.children[0].style.top  = 12 + "em";      mar2.children[2].style.top  = 12 + "em";
+		mar2.children[1].style.top  = 12 + "em";      mar2.children[3].style.top  = 12 + "em";
 	}
 
 		mar2(text4); mar2(text3); mar2(text5);  mar2(text8)
 
 	function mar3(mar3) {
-		mar3.children[0].style.top  = 17 + "em";     mar3.children[2].style.top  = 17 + "em";
-		mar3.children[1].style.top  = 17 + "em";     mar3.children[3].style.top  = 17 + "em";
+		mar3.children[0].style.top  = 12 + "em";     mar3.children[2].style.top  = 12 + "em";
+		mar3.children[1].style.top  = 12 + "em";     mar3.children[3].style.top  = 12 + "em";
 	}
 			mar3(text5); mar3(text8);
-		text6.children[0].style.top  = 12 + "em";   text7.children[0].style.top  = 10 + "em";       text.children[0].style.marginLeft  = 4 + "em";
-		text6.children[1].style.top  = 12 + "em";   text7.children[1].style.top  = 10 + "em";       text.children[1].style.marginLeft  = 4 + "em";
-		text6.children[2].style.top  = 12 + "em";   text7.children[2].style.top  = 10 + "em";       text.children[2].style.marginLeft  = 4 + "em";
-		text6.children[3].style.top  = 12 + "em";   text7.children[3].style.top  = 10 + "em";       text.children[3].style.marginLeft  = 4 + "em";
+		text6.children[0].style.top  = 7 + "em";   text7.children[0].style.top  = 7 + "em";       text.children[0].style.marginLeft  = 4 + "em";
+		text6.children[1].style.top  = 7 + "em";   text7.children[1].style.top  = 7 + "em";       text.children[1].style.marginLeft  = 4 + "em";
+		text6.children[2].style.top  = 7 + "em";   text7.children[2].style.top  = 7 + "em";       text.children[2].style.marginLeft  = 4 + "em";
+		text6.children[3].style.top  = 7 + "em";   text7.children[3].style.top  = 7 + "em";       text.children[3].style.marginLeft  = 4 + "em";
 		
 }
 
 
 
-if(screen.width>540&&screen.width<830) {
+if(screen.width>430&&screen.width<830) {
 	function mar(mar1){
 		mar1.children[0].style.marginLeft  = 18 + "em";
 		mar1.children[1].style.marginLeft  = 18 + "em";
@@ -213,10 +213,10 @@ if(screen.width>540&&screen.width<830) {
 	}
 		mar4(text2); mar4(text3); mar4(text4); mar4(text5);
 
-		text.children[0].style.marginLeft  = 4 + "em";     text.children[0].style.marginTop  = -4 + "em";
-		text.children[1].style.marginLeft  = 4 + "em";     text.children[1].style.marginTop  = -4  + "em";
-		text.children[2].style.marginLeft  = 4 + "em";     text.children[2].style.marginTop  = -4  + "em";
-		text.children[3].style.marginLeft  = 4 + "em";     text.children[3].style.marginTop  = -4  + "em";
+		text.children[0].style.marginLeft  = 8 + "em";     text.children[0].style.marginTop  = -4 + "em";
+		text.children[1].style.marginLeft  = 8 + "em";     text.children[1].style.marginTop  = -4  + "em";
+		text.children[2].style.marginLeft  = 8 + "em";     text.children[2].style.marginTop  = -4  + "em";
+		text.children[3].style.marginLeft  = 8 + "em";     text.children[3].style.marginTop  = -4  + "em";
 
     	text6.children[0].style.top  = 6 + "em";            text7.children[0].style.top  = 6 + "em";
 		text6.children[1].style.top  = 6 + "em";            text7.children[1].style.top  = 6 + "em";
